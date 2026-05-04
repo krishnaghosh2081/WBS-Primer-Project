@@ -16,7 +16,7 @@ html {
   padding: 40px;
 }
 
-nav h2 {
+.bakerimg h2 {
     font-size: 1.5rem;
     padding-bottom: 0.3em;
     text-align: center;
@@ -50,7 +50,8 @@ nav h2 {
   float:inline-end;
 }
 .bakers{
-  padding: 40px;
+  padding: 0.5em;
+  margin: 3em;
 }
 
 .bakers nav h2 {
@@ -89,6 +90,43 @@ nav h2 {
   width: 70%;
   text-align: center; 
   padding-top: 3em;
+}
+
+.recipes{
+  padding: 60px;
+  margin: 15em; 
+}
+
+.recipes h2 {
+    font-size: 1.5rem;
+    padding: 0.5em;  
+    margin:1em;
+    text-align: center;
+}
+
+.recipes  p {
+    font-size: 0.8 rem;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.recipes  .recipecontainer {
+  float: left;
+  display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: row wrap;
+    padding-left: 10em;
+}
+
+
+#rectangle{
+    width:200px;
+    height:140px;
+    text-align: center;
+    margin-right:160px;
+    background:rgb(224, 224, 239);
 }
 
 /* footer */
