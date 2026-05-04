@@ -23,16 +23,58 @@ html {
 
 .leftContainer {
   border: none;
-  /* background-image: ; */
+  text-align: left;
+  background-image: url(../assets/heroSourdoughBg.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  width: 500px;
+  height: 400px;
+
 }
 
-.breadBg {
-  width: 200px;
+.catchyText
+{
+  padding: 2rem;
+  color: #f66483;
+  line-height: 1.5;
 }
+
+.no1 {
+  padding: 2rem;
+  color: #f66483;
+  font-weight: bolder;
+  background-color: #faf7e7;
+  width: fit-content;
+  margin: 10px 
+}
+
+.trial {
+  padding: 2rem;
+  color: #f66483;
+  font-weight: bolder;
+  background-color: #faf7e7;
+  width: fit-content;
+  margin: 10px 
+}
+
+/* .containerBg {
+  background-image: url(../assets/heroSourdoughBg.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  width: 500px;
+  height: 400px;
+} */
 
 .rightContainer {
+  display: flex;
   background-color: #f9a01b;
   border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  width: 200px;
 }
 
 /* footer */
