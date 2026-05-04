@@ -20,10 +20,11 @@ nav h2 {
 
 .figure {
     display: flex; 
+    align-items: center;
     margin: 1 rem;
     text-align: center;
     padding: 1 rem;
-    
+    justify-content: center;
 }
 
 .figure img{
@@ -43,6 +44,43 @@ nav h2 {
   margin: 0.2em;
   padding: 0.2em;
   float:inline-end;
+}
+
+.bakers nav h2 {
+    font-size: 1.5rem;
+    padding-bottom: 0.3em;
+    text-align: center;
+}
+
+.bakers nav p {
+    font-size: 0.7 rem;
+    padding-bottom: 0.3em;
+    text-align: center;
+}
+
+.bakers  .container {
+  float: left;
+  display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: row wrap;
+    padding-left: 10em;
+}
+
+.bakers .image {
+  display: block; 
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
+    
+}
+
+.bakers .caption {
+  display: block;
+  width: 70%;
+  text-align: center; 
+  padding-top: 3em;
 }
 
 /* footer */
