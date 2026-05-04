@@ -18,7 +18,7 @@ nav h2 {
     text-align: center;
 }
 
-figure {
+.figure {
     display: flex; 
     margin: 1 rem;
     text-align: center;
@@ -26,20 +26,23 @@ figure {
     
 }
 
-figure img{
-  width: 200px;
-  height: 200px;
+.figure img{
+  width: 100px;
+  height: 100px;
+  margin:5px;
+  padding:5px;
 }
 
 
-figcaption {
-  background-color: rgb(155, 190, 154);
-  display: flex;
-  color: white;
+.figure figcaption {
+  background-color: rgb(244, 246, 248);
+  display: none;
+  color: #070707;
   font-style: italic;
   text-align: center;
   margin: 0.2em;
   padding: 0.2em;
+  float:inline-end;
 }
 
 /* footer */
