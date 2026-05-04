@@ -22,7 +22,9 @@ html {
 }
 
 .leftContainer {
-  border: none;
+  display: flex;
+  flex-direction:column;
+  /* border: 3px solid #f66483; */
   text-align: left;
   background-image: url(../assets/heroSourdoughBg.jpeg);
   background-repeat: no-repeat;
@@ -30,18 +32,20 @@ html {
   background-position: center;
   width: 500px;
   height: 400px;
-
+  justify-content: space-around;
 }
 
-.catchyText
-{
+.leftContainer 
+
+.catchyText {
   padding: 2rem;
-  color: #f66483;
+  color: #faf7e7;
   line-height: 1.5;
+  
 }
 
 .no1 {
-  padding: 2rem;
+  padding: 1.5rem;
   color: #f66483;
   font-weight: bolder;
   background-color: #faf7e7;
@@ -49,8 +53,12 @@ html {
   margin: 10px 
 }
 
+.catchyText h1 {
+  font-size: 3rem;
+}
+
 .trial {
-  padding: 2rem;
+  padding: 1.5rem;
   color: #f66483;
   font-weight: bolder;
   background-color: #faf7e7;
@@ -68,13 +76,23 @@ html {
 } */
 
 .rightContainer {
-  display: flex;
+  flex-direction: column;
   background-color: #f9a01b;
   border-radius: 20px;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   padding: 1rem;
   width: 200px;
+}
+
+button.heroCall {
+  width: 4em;
+    padding: 5px 5px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    font-size: 1em;
 }
 
 /* footer */
