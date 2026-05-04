@@ -11,5 +11,27 @@ html {
 /* header */
 
 /* main */
+.heroSection {
+  background-color: #15484c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px 150px;
+
+}
+
+.leftContainer {
+  border: none;
+}
+
+.breadBg {
+  width: 200px;
+}
+
+.rightContainer {
+  background-color: #f9a01b;
+  border-radius: 20px;
+}
 
 /* footer */
