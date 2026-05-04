@@ -11,5 +11,42 @@ html {
 /* header */
 
 /* main */
+.chooseUs {
+  background-color: #f98aa2;
+}
+
+.chooseUsHeader {
+  text-align: center;
+  padding: 30px;
+  font-size: 3rem;
+  color: #a6480a;
+  font-weight: bolder;
+}
+
+.reasons {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: auto;
+  gap: 20px;
+  justify-content: center;
+
+}
+
+figure div {
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+} 
+
+figure div:hover {
+  border: 3px solid #f9a01b;
+}
+
+figure p {
+  padding: 5px;
+  /* text-align: center; */
+}
 
 /* footer */
