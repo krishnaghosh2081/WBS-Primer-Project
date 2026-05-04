@@ -12,4 +12,34 @@ html {
 
 /* main */
 
+nav h2 {
+    font-size: 1.5rem;
+    padding-bottom: 0.3em;
+    text-align: center;
+}
+
+figure {
+    display: flex; 
+    margin: 1 rem;
+    text-align: center;
+    padding: 1 rem;
+    
+}
+
+figure img{
+  width: 200px;
+  height: 200px;
+}
+
+
+figcaption {
+  background-color: rgb(155, 190, 154);
+  display: flex;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  margin: 0.2em;
+  padding: 0.2em;
+}
+
 /* footer */
