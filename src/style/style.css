@@ -76,13 +76,26 @@ html {
 } */
 
 .rightContainer {
+  display: flex;
   flex-direction: column;
   background-color: #f9a01b;
   border-radius: 20px;
-  /* flex-direction: column; */
-  justify-content: center;
+  justify-content: flex-end;
   padding: 1rem;
   width: 200px;
+  gap:10px;
+}
+
+.rightContainer h2 {
+  font-size: 50px;
+  line-height: 0.8;
+  color: #a6480a;
+}
+
+.power {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #a6480a;
 }
 
 button.heroCall {
