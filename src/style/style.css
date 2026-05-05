@@ -140,6 +140,7 @@ button.heroCall {
     text-align: center;
     padding: 1 rem;
     justify-content: center;
+    background-color: rgb(210, 163, 184);
 }
 
 .figure img{
@@ -160,18 +161,18 @@ button.heroCall {
   padding: 0.2em;
   float:inline-end;
 }
-.bakers{
-  padding: 0.5em;
-  margin: 3em;
-}
+  .bakers{
+    padding: 40px;
+  }
 
-.bakers nav h2 {
+
+.bakers  h2 {
     font-size: 1.5rem;
     padding-bottom: 0.3em;
     text-align: center;
 }
 
-.bakers nav p {
+.bakers  p {
     font-size: 0.7 rem;
     padding-bottom: 0.3em;
     padding-top: 0.3em;
@@ -179,13 +180,16 @@ button.heroCall {
 }
 
 .bakers  .container {
-  float: left;
-  display: flex; 
+    display: flex; 
     align-items: center;
-    justify-content: center;
+    justify-content:space-around;
     flex-direction: row;
     flex-flow: row wrap;
-    padding-left: 10em;
+    float: left;
+    background-color: #e4f7a7;
+    padding: 1.5rem;
+    width:100%;
+  
 }
 
 .bakers .image {
@@ -201,38 +205,41 @@ button.heroCall {
   width: 70%;
   text-align: center; 
   padding-top: 3em;
+  margin: 0.2em;
+  padding: 0.2em;
 }
 
 .recipes{
-  padding: 60px;
-  margin: 15em; 
+ padding: 40px;
 }
 
 .recipes h2 {
     font-size: 1.5rem;
-    padding: 0.5em;  
-    margin:1em;
+    padding-bottom: 0.3em;
     text-align: center;
 }
 
 .recipes  p {
-    font-size: 0.8 rem;
-    padding-bottom: 2em;
+    font-size: 0.7 rem;
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
     text-align: center;
 }
 
 .recipes  .recipecontainer {
-  float: left;
-  display: flex; 
+    display: flex; 
     align-items: center;
-    justify-content: center;
+    justify-content:space-around;
     flex-direction: row;
     flex-flow: row wrap;
-    padding-left: 10em;
+    float: left;
+    background-color: #abc2e1;
+    padding: 1.5rem;
+    width:100%;
 }
 
 
-#rectangle{
+.rectangle{
     width:200px;
     height:140px;
     text-align: center;
