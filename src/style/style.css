@@ -223,7 +223,7 @@ button.heroCall {
     background-color: #e4f7a7;
     padding: 1.5rem;
     width:100%;
-  
+    list-style-type: none;
 }
 
 .bakers .image {
@@ -273,6 +273,7 @@ button.heroCall {
     background-color: #abc2e1;
     padding: 1.5rem;
     width:100%;
+    list-style-type: none;
 }
 
 
@@ -303,7 +304,6 @@ button.heroCall {
   grid-template-rows: auto;
   gap: 20px;
   justify-content: center;
-
 }
 
 figure div {
@@ -343,6 +343,7 @@ figure p {
   display: flex;
   align-items: center;
   justify-content: center;
+  width:100%;
 }
 
 .footerLogo {
