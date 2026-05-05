@@ -26,6 +26,102 @@ html {
 }
 
 /* main */
+.heroSection {
+  background-color: #15484c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px 150px;
+
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction:column;
+  /* border: 3px solid #f66483; */
+  text-align: left;
+  background-image: url(../assets/heroSourdoughBg.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  width: 500px;
+  height: 400px;
+  justify-content: space-around;
+}
+
+.leftContainer 
+
+.catchyText {
+  padding: 2rem;
+  color: #faf7e7;
+  line-height: 1.5;
+  
+}
+
+.no1 {
+  padding: 1.5rem;
+  color: #f66483;
+  font-weight: bolder;
+  background-color: #faf7e7;
+  width: fit-content;
+  margin: 10px 
+}
+
+.catchyText h1 {
+  font-size: 3rem;
+}
+
+.trial {
+  padding: 1.5rem;
+  color: #f66483;
+  font-weight: bolder;
+  background-color: #faf7e7;
+  width: fit-content;
+  margin: 10px 
+}
+
+/* .containerBg {
+  background-image: url(../assets/heroSourdoughBg.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  width: 500px;
+  height: 400px;
+} */
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9a01b;
+  border-radius: 20px;
+  justify-content: flex-end;
+  padding: 1rem;
+  width: 200px;
+  gap:10px;
+}
+
+.rightContainer h2 {
+  font-size: 50px;
+  line-height: 0.8;
+  color: #a6480a;
+}
+
+.power {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #a6480a;
+}
+
+button.heroCall {
+  width: 4em;
+    padding: 5px 5px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    font-size: 1em;
+}
 
 .bakerimg{
   padding: 40px;
