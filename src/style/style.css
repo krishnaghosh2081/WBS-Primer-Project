@@ -12,11 +12,42 @@ html {
 /* nav */
 .site-header {
   background-color: #f5e6d3; /* warm bakery tone */
+  width: 100%;
 }
 
 .logo {
   font-weight: bold;
   font-size: 20px;
+  padding: 12px 18px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 48px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a,
+.nav-button {
+  display: inline-block;
+  padding: 12px 18px;
+  text-decoration: none;
 }
 
 .nav-button {
@@ -24,6 +55,7 @@ html {
   color: white;
   border-radius: 6px;
 }
+
 
 /* main */
 .heroSection {
