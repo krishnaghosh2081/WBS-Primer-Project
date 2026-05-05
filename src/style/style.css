@@ -9,6 +9,21 @@ html {
 }
 
 /* header */
+/* nav */
+.site-header {
+  background-color: #f5e6d3; /* warm bakery tone */
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-button {
+  background-color: #d2691e; /* bakery brown */
+  color: white;
+  border-radius: 6px;
+}
 
 /* main */
 
