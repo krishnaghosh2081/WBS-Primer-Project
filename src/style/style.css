@@ -157,12 +157,14 @@ button.heroCall {
 
 .bakerimg{
   padding: 40px;
+  background-color: #8de8b5;
 }
 
 .bakerimg h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-bottom: 0.3em;
     text-align: center;
+    color:#2379ab
 }
 
 .figure {
@@ -195,11 +197,12 @@ button.heroCall {
 }
   .bakers{
     padding: 40px;
+    background-color: #998de8;
   }
 
 
 .bakers  h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-bottom: 0.3em;
     text-align: center;
     color:#28614a;
@@ -246,10 +249,12 @@ button.heroCall {
 
 .recipes{
  padding: 40px;
+ margin: 0px;
+ background-color: #abc2e1;
 }
 
 .recipes h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-bottom: 0.3em;
     text-align: center;
     color:#a53886;
@@ -271,9 +276,10 @@ button.heroCall {
     flex-flow: row wrap;
     float: left;
     background-color: #abc2e1;
-    padding: 1.5rem;
+    padding: 2rem;
     width:100%;
     list-style-type: none;
+    margin:0;
 }
 
 
