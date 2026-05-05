@@ -170,6 +170,7 @@ button.heroCall {
     font-size: 1.5rem;
     padding-bottom: 0.3em;
     text-align: center;
+    color:#28614a;
 }
 
 .bakers  p {
@@ -177,6 +178,7 @@ button.heroCall {
     padding-bottom: 0.3em;
     padding-top: 0.3em;
     text-align: center;
+    color:#a53886;
 }
 
 .bakers  .container {
@@ -207,6 +209,7 @@ button.heroCall {
   padding-top: 3em;
   margin: 0.2em;
   padding: 0.2em;
+  color:#a53886;
 }
 
 .recipes{
@@ -217,6 +220,7 @@ button.heroCall {
     font-size: 1.5rem;
     padding-bottom: 0.3em;
     text-align: center;
+    color:#a53886;
 }
 
 .recipes  p {
@@ -224,6 +228,7 @@ button.heroCall {
     padding-bottom: 0.3em;
     padding-top: 0.3em;
     text-align: center;
+    color:#2379ab;
 }
 
 .recipes  .recipecontainer {
@@ -245,6 +250,7 @@ button.heroCall {
     text-align: center;
     margin-right:160px;
     background:rgb(224, 224, 239);
+    color:#a6480a;
 }
 .chooseUs {
   background-color: #f98aa2;
