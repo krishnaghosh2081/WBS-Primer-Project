@@ -41,7 +41,7 @@ html {
   flex-direction:column;
   /* border: 3px solid #f66483; */
   text-align: left;
-  background-image: url(../assets/heroSourdoughBg.jpeg);
+  background-image:url(../assets/heroSourdoughBg.jpeg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
@@ -278,3 +278,57 @@ figure p {
 }
 
 /* footer */
+.footer {
+  background-color: #f9a01b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerLogo {
+  background-color: #faf7e7;
+  width:fit-content;
+  color: #c8ab03;
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.footerContent {
+  padding: 20px;
+}
+
+.navFooter ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.footer a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #070707;
+}
+
+.footer a:hover {
+  font-weight: bolder;
+}
+
+.footer a:active {
+  color: #faf7e7;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.socialMedia img {
+  height:32px;
+
+}
